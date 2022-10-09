@@ -1,0 +1,207 @@
+.about{
+    background: #191919;
+}
+img.about__img{
+    border-radius: 10px;
+    width: 70%;
+    line-height: 100%;
+}
+.about-And-skills_heading{
+    display: flex;
+    width: 100%;
+}
+.back-slash{
+    font-size: 60px;
+    font-weight: 700;
+}
+h1.about__heading{
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: start;
+    font-family: Montserrat,sans-serif;
+    font-size: 40px;
+    margin: 10px;
+    color:#494848 ;
+}
+h1.about__heading:hover{
+    color: #ff8400;
+    cursor: pointer;
+    
+}
+button.about.btn.pointer {
+    text-transform: capitalize;
+    width: 195px;
+    height: 55px;
+    font-size: 18px;
+    background-color: #191919;
+    transition: .4s ease;
+}
+button.about.btn.pointer:hover{
+    background-image:  linear-gradient( 
+        90deg,#1d1d1d,#ff8400);
+}
+.about__meta{
+    margin-top: 7%;
+}
+
+.about__button{
+    padding: 20px 0px;
+}
+a.bottom__to__top{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    background-color: #ff8400;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: .9s ease;
+    z-index: 1000;
+}
+a.bottom__to__top.active{
+    display: flex;
+    color: #ffffff;
+}
+
+h1.heading {
+    font-size: 60px;
+    text-align: center;
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+p.heading.p__color {
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+}
+.about__box {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #191919;
+    padding: 20px;
+    transition: .4s ease;
+}
+.about__box:hover {
+    transform: translateY(4px);
+    width: 100%;
+}
+.about__box:hover .icon{
+    color: #fff;
+}
+.about__box {
+    color: #fff!important;
+}
+
+.icon {
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    display: inline-flex;
+    color: #ff8400;
+}
+p.about__text.p__color {
+    margin-bottom: 40px;
+}
+.p-about__text{
+    font-size: 18px!important;
+}
+h1.about__text {
+    font-size: 19px;
+    font-family: Poppins,sans-serif;
+    padding: 10px 0px;
+}
+.p-about__text.p__color{
+    margin-bottom: 0px;
+}
+.tabs {
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+  }
+  .active-tabs  {
+    color: #ff8400;
+  }
+  button{
+    border: none;
+  }
+  .content {
+    display: none;
+  }
+  .active-content {
+    display: block;
+  }
+
+  .cover{ 
+    display: flex;
+    margin-top: 10%;
+  }
+
+  .progress-bar{
+    width: 200px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.868);
+    border-radius: 5px;
+  }
+
+  .progress{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    border-radius: 5px;
+    color: #191919;
+    font-size: large;
+    font-weight: bold;
+  }
+
+@media only screen and (max-width: 1024px){
+   .about__box {
+    padding: 32px;
+}
+}
+
+@media only screen and (max-width: 1024px){
+    .p__color{
+        font-size: 15px!important;
+    }
+
+    .about-And-skills_heading h1{
+       font-size: 33px;
+    }
+}
+
+@media screen and (max-width:768px){
+    img.about__img{
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 425px){
+
+.container{
+    height: 100%;
+}
+
+button.about.btn.pointer {
+    text-transform: capitalize;
+    width: 165px;
+    height: 50px;
+    font-size: 13px;
+    transition: .4s ease;
+}
+.cover{
+    display: inline;
+}
+.about-And-skills_heading h1{
+    font-size: 25px;
+}
+}
